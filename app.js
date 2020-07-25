@@ -55,10 +55,8 @@ console.warn(parseFloat(num)); */
 `;
 alert(davetliListesi); // birçok satırdan oluşan davetiye listesi */
 
-
 /* let name = prompt("adinizi daxil edin");
 console.warn(`adin uzulnugu: ${name.length}`) */
-
 
 /* let name = "Shamil";
 
@@ -67,11 +65,9 @@ for (const iterator of name) {
 }
  */
 
-
 //  let str = "Baku is the capital of Azerbaijan";
 //  let result = str.indexOf("is");
 //  console.warn(result);
-
 
 /* let sentence = "Bir berber bir berbere gel birader beraber bir berber dükkanı açalım demiş";
 let searcheWordsIndex = "bir";
@@ -86,9 +82,6 @@ while (true) {
     }
 } */
 
-
-
-
 /* let str = "Azerbaycan";
 let sub = str.substring(0,5);
 console.warn(sub); */
@@ -101,15 +94,75 @@ console.warn(slic); */
 // let slic = str.substr(2,3)
 // console.warn(slic);
 
-let user = {
+/* let user = {
     name: "Shamil",
     surname: "Mammadov",
     age: 25,
     isAdmin: true
 }
-console.warn(user.Age);
+let srch = prompt("Input","name");
+console.warn(user[`${srch}`]); */
 
 // user.isAdmin == true ? alert(`Welcome ${user.name}`) : console.warn("refused");
 
 /* delete(user.surname);
 console.warn(user); */
+
+/* let fruit = prompt("Meyvenin adi: ");
+let price = prompt("Qiymeti: ");
+
+let fruits = {
+ [fruit]: price,
+}
+
+console.warn(fruits); */
+
+/* function createUser(name, age) {
+  return {
+    ad: name,
+    yas: age,
+  };
+}
+
+let shamil = createUser("Shamil",26);
+console.warn(shamil); */
+
+
+/* 
+let user = {
+    name: "Shamil",
+    surname: "Mammadov",
+    age: 26
+}
+
+for (const key in user) {
+   console.warn(key)
+} */
+
+
+/* 
+let student = {
+    name: "Shamil",
+    age: 26
+}
+
+let developer = student;
+// console.warn(student);
+// console.warn(developer)
+student.name = "Emil";
+console.warn(student);
+console.warn(developer) */
+
+//eger object icinde object varsa o klonlanmir sadece referans olur yeni bir birinden asili
+/* let user = {
+    name: "Shamil",
+    age: 26
+}
+
+let developer = Object.assign({},user);
+// console.warn(user);
+// console.warn(developer);
+user.name = "Shamo";
+console.warn(user);
+console.warn(developer); */
+
