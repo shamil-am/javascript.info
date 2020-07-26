@@ -166,3 +166,111 @@ user.name = "Shamo";
 console.warn(user);
 console.warn(developer); */
 
+
+/* let i;
+
+for ( i = 0; i < 10; i++) {
+    
+    console.warn(i)
+}
+alert(i); //fordan cole cixir 1vahid artaraq */
+
+
+//label
+/* 
+ust_dongu: for (let i = 0; i < 3; i++) {
+
+    for (let j = 0; j < 3; j++) {
+  
+      let giris = prompt(`Kordinattaki değer (${i},${j})`, '');
+  
+      // Eğer iptal edildi veya boş bir değer girildiyse dışarıdaki döngüyü de kır.
+      if (!giris) break ust_dongu; // (*)
+  
+      // değer ile birşeyler yap.
+    }
+  }
+  alert('Bitti!') */
+
+
+
+  /* function sayHello(name,sent = 'demedi') {
+      
+    console.warn(`${name}, ${sent}`)
+  }
+
+  sayHello("shamil","salam");
+  sayHello("shamil") */
+
+/* 
+  function yasKontrolu(yas) {
+    if (yas > 18) {
+      return true;
+    } else {
+      return confirm('Ebevenylerinin izni var mı?');
+    }
+  }
+  
+  let yas = prompt('Kaç yaşındasın?', 18);
+  
+  if ( yasKontrolu(yas) ) {
+    alert( 'İzin verildi' );
+  } else {
+    alert( 'Reddedildi' );
+  } */
+
+
+  // yaradilib sonra istifade edilmelidir
+
+// const beli = () => {
+//     alert('Welcome');
+// }
+
+// const xeyir = () => {
+//     alert('No permission')
+// }
+
+/* function giveGuestion(question,yes,no) {
+    if (confirm(question)) {
+        yes();
+    } else {
+        no();
+    }
+}
+
+giveGuestion('Daxilolma icazeniz varmi?',beli,xeyir);
+
+// istenilen yerde istifade edile biler
+
+function beli(params) {
+    alert('Welcome');
+}
+
+function xeyir(params) {
+    alert('No permission')
+} */
+
+
+
+//her ikisi isleyir
+
+/* let user = {
+    name: "Shamil",
+    surname: "Mammadov",
+    sayHello(){
+        alert(`Hello ${this.name}`)
+    }
+}
+user.sayHello();
+ */
+
+/* let user = {
+    name: "Shamil",
+    surname: "Mammadov",
+    sayHello: function(){
+        alert(`Hello ${this.name}`)
+    }
+}
+user.sayHello(); */
+
+
