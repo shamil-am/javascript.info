@@ -273,4 +273,60 @@ user.sayHello();
 }
 user.sayHello(); */
 
+/* 
+function User(name,surname) {
+   this.name = name;
+   this.surname = surname;
+   this.sayHEllo = function() {
+       alert(`Welcome ${this.name}`)
+   }
+}
+
+let shamil = new User("Shamil","Mammadov");
+console.warn(shamil.sayHEllo()); */
+
+/* 
+let names = "Shamil, Emil, Aylin";
+console.warn(names);
+let namesArr = names.split(", ");
+console.warn(namesArr); */
+
+/* 
+let arr = [1,2,3,4,5];
+let result = arr.reduce((a,b)=> a + b);
+console.warn(result) //cemin tapir elementlerin */
+
+
+/* let now = new Date().getTimezoneOffset() / 60;
+console.warn(now); */
+
+/* 
+let tarih = new Date();
+tarih.setSeconds(tarih.getSeconds() + 70);
+alert( tarih ); // doğru tarihi gösterir. */
+
+/* let tarih = new Date(2016, 1, 28);
+tarih.setDate(tarih.getDate() + 2);
+alert( tarih ); // 1 Mar 2016 */
+
+/* let specTime = new Date("1993.12.15 16:15:00");
+console.warn(specTime); */
+
+/* 
+let user = {
+    name: "Shamil",
+    surname: "Mammadov",
+    education: {
+        bachelor: "MAA",
+        master: "ADNA"
+    },
+    military: true,
+}
+
+let myJson = JSON.stringify(user);
+console.warn(myJson);
+let user2 = JSON.parse(myJson);
+console.warn(user2) */
+
+
 
