@@ -328,5 +328,22 @@ console.warn(myJson);
 let user2 = JSON.parse(myJson);
 console.warn(user2) */
 
+// ----------------------------------------------------------------------
+                // REGEX
 
+/* let str = "+7(903)-123-45-67";
+let regexp = /\d/g;
+alert(str.match(regexp).join(''));  */
 
+// let str = "+7(903)-123-45-67";
+// let regexp = /\D/g;
+// alert(str.replace(regexp,'')); 
+
+/* let str = "We will, we will rock you";
+let regexp = /\we/gi;
+alert(str.match(regexp)); */
+
+let good = "22:45";
+let bad = "22:345";
+let regexp = /^\d\d\:\d\d$/g;
+alert(regexp.test(bad));
